@@ -1,0 +1,55 @@
+.logocomida {
+    width: 100px;
+    margin-right: 15px;
+    margin: 15px;
+  }
+  
+  .ListaInicio {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: flex-end;
+    align-items: center;
+    list-style-type: none;
+    gap: 1rem;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 120%;
+  
+    li a {
+      text-decoration: none;
+    }
+  }
+  
+  .iconoConTexto {
+    display: flex;
+    align-items: center;
+  }
+  
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    border-bottom: 2px solid black;
+    width: 100%;
+  }
+  
+  .RockAndPol {
+    display: block;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Lobster', cursive;
+  }
+  
+  .navbar-collapse {
+    flex-grow: 0 !important;
+  }
+  
+  @media (max-width: 800px) {
+    .columna1 {
+      width: 50% !important;
+    }
+  }
+  
