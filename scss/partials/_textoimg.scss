@@ -10,6 +10,23 @@
   color: $colorprincipal;
 }
 
+@media (max-width: 850px) {
+  .imagenTextoInicio {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .imagenTextoInicio img {
+    margin-bottom: 10px;
+    max-width: 100%;
+    height: auto;
+  }
+
+  .textoInicio {
+    font-size: 14px;
+  }
+}
+
 $colores: (
   azul: #d9daff,
   amarillo: #fffecb
